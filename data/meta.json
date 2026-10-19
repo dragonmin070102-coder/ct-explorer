@@ -1,0 +1,180 @@
+{
+  "subject": "s0720",
+  "shape": [
+    159,
+    136,
+    222
+  ],
+  "spacing_mm": [
+    2.2,
+    2.2,
+    2.2
+  ],
+  "source_spacing_mm": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "crop_offset_voxels": [
+    36,
+    39,
+    107
+  ],
+  "crop_offset_mm": [
+    54.0,
+    58.5,
+    160.5
+  ],
+  "volume_center_mm": [
+    173.8,
+    148.5,
+    243.1
+  ],
+  "axes": "RAS+ (i -> patient right, j -> anterior, k -> superior)",
+  "window": {
+    "level": 50.0,
+    "width": 400.0
+  },
+  "files": {
+    "ct": "ct.bin.gz",
+    "labels": "labels.bin.gz"
+  },
+  "labels": [
+    {
+      "id": 1,
+      "name": "liver",
+      "centroid": [
+        107.28,
+        83.44,
+        106.96
+      ],
+      "anchor": [
+        107,
+        83,
+        107
+      ],
+      "volume_ml": 3063.8,
+      "mesh": "meshes/liver.glb",
+      "faces": 40000
+    },
+    {
+      "id": 2,
+      "name": "spleen",
+      "centroid": [
+        28.02,
+        53.46,
+        104.22
+      ],
+      "anchor": [
+        28,
+        53,
+        104
+      ],
+      "volume_ml": 371.1,
+      "mesh": "meshes/spleen.glb",
+      "faces": 40000
+    },
+    {
+      "id": 3,
+      "name": "stomach",
+      "centroid": [
+        50.33,
+        88.44,
+        105.55
+      ],
+      "anchor": [
+        50,
+        88,
+        106
+      ],
+      "volume_ml": 558.8,
+      "mesh": "meshes/stomach.glb",
+      "faces": 40000
+    },
+    {
+      "id": 4,
+      "name": "kidney_right",
+      "centroid": [
+        110.85,
+        51.82,
+        74.07
+      ],
+      "anchor": [
+        111,
+        51,
+        74
+      ],
+      "volume_ml": 201.6,
+      "mesh": "meshes/kidney_right.glb",
+      "faces": 34248
+    },
+    {
+      "id": 5,
+      "name": "kidney_left",
+      "centroid": [
+        47.42,
+        48.09,
+        80.09
+      ],
+      "anchor": [
+        47,
+        46,
+        82
+      ],
+      "volume_ml": 207.2,
+      "mesh": "meshes/kidney_left.glb",
+      "faces": 34672
+    },
+    {
+      "id": 6,
+      "name": "aorta",
+      "centroid": [
+        75.25,
+        61.46,
+        144.47
+      ],
+      "anchor": [
+        74,
+        50,
+        144
+      ],
+      "volume_ml": 184.2,
+      "mesh": "meshes/aorta.glb",
+      "faces": 40000
+    },
+    {
+      "id": 7,
+      "name": "inferior_vena_cava",
+      "centroid": [
+        88.23,
+        69.63,
+        91.41
+      ],
+      "anchor": [
+        88,
+        70,
+        91
+      ],
+      "volume_ml": 131.3,
+      "mesh": "meshes/inferior_vena_cava.glb",
+      "faces": 28688
+    },
+    {
+      "id": 8,
+      "name": "spine",
+      "centroid": [
+        80.9,
+        39.59,
+        101.51
+      ],
+      "anchor": [
+        81,
+        40,
+        102
+      ],
+      "volume_ml": 660.2,
+      "mesh": "meshes/spine.glb",
+      "faces": 40000
+    }
+  ]
+}
