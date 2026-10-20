@@ -9,4 +9,4 @@
 
 This repository holds only the built static site (GitHub Pages).
 
-CT data: TotalSegmentator dataset (Wasserthal et al.), University Hospital Basel, CC BY 4.0 — https://zenodo.org/records/10047292
+CT data: TotalSegmentator dataset (small subset v2.0.1) — Jakob Wasserthal, University Hospital Basel. https://doi.org/10.5281/zenodo.10047263 — licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Modified: one case cropped, resampled, windowed and converted to 3D meshes; synthetic teaching lesions can be added. Full credits: credits/ and THIRD_PARTY_NOTICES.txt.
