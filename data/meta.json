@@ -176,5 +176,45 @@
       "mesh": "meshes/spine.glb",
       "faces": 40000
     }
-  ]
+  ],
+  "xray": {
+    "simulated": true,
+    "method": "parallel-beam DRR from CT (HU to attenuation, bone boost), not a real radiograph",
+    "source_shape": [
+      307,
+      307,
+      445
+    ],
+    "source_spacing_mm": [
+      1.5,
+      1.5,
+      1.5
+    ],
+    "views": {
+      "ap": {
+        "image": "xray/ap.png",
+        "labels": "xray/ap_labels.bin.gz",
+        "cols": 307,
+        "rows": 445,
+        "colAxis": 0,
+        "rowAxis": 2,
+        "pixel_mm": [
+          1.5,
+          1.5
+        ]
+      },
+      "lateral": {
+        "image": "xray/lateral.png",
+        "labels": "xray/lateral_labels.bin.gz",
+        "cols": 307,
+        "rows": 445,
+        "colAxis": 1,
+        "rowAxis": 2,
+        "pixel_mm": [
+          1.5,
+          1.5
+        ]
+      }
+    }
+  }
 }
