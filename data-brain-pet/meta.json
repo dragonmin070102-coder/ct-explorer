@@ -1,0 +1,128 @@
+{
+  "region": "brain",
+  "shape": [
+    155,
+    186,
+    159
+  ],
+  "spacing_mm": [
+    1.1,
+    1.1,
+    1.1
+  ],
+  "source_spacing_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "crop_offset_voxels": [
+    1,
+    16,
+    47
+  ],
+  "crop_offset_mm": [
+    1.0,
+    16.0,
+    47.0
+  ],
+  "volume_center_mm": [
+    84.7,
+    101.75,
+    86.9
+  ],
+  "axes": "RAS+ (i -> patient right, j -> anterior, k -> superior)",
+  "files": {
+    "ct": "image.bin.gz",
+    "labels": "labels.bin.gz",
+    "pet": "pet.bin.gz"
+  },
+  "labels": [
+    {
+      "id": 18,
+      "name": "ventricles",
+      "centroid": [
+        75.81,
+        104.34,
+        93.69
+      ],
+      "anchor": [
+        76,
+        104,
+        94
+      ],
+      "volume_ml": 25.8,
+      "mesh": "meshes/ventricles.glb",
+      "faces": 39112,
+      "suv_mean": 0.65,
+      "suv_max": 1.66
+    },
+    {
+      "id": 19,
+      "name": "gray_matter",
+      "centroid": [
+        77.29,
+        87.88,
+        84.58
+      ],
+      "anchor": [
+        77,
+        88,
+        85
+      ],
+      "volume_ml": 941.2,
+      "mesh": "meshes/gray_matter.glb",
+      "faces": 40000,
+      "suv_mean": 1.16,
+      "suv_max": 2.04
+    },
+    {
+      "id": 20,
+      "name": "white_matter",
+      "centroid": [
+        77.63,
+        81.63,
+        79.79
+      ],
+      "anchor": [
+        80,
+        83,
+        78
+      ],
+      "volume_ml": 557.7,
+      "mesh": "meshes/white_matter.glb",
+      "faces": 39998,
+      "suv_mean": 0.78,
+      "suv_max": 1.89
+    }
+  ],
+  "modality": "PET",
+  "subject": "ds002898 sub-01",
+  "window": {
+    "level": 127.5,
+    "width": 255
+  },
+  "pet": {
+    "tracer": "18F-FDG",
+    "units": "SUVR",
+    "reference": "whole brain",
+    "anatomy": "MR",
+    "suv_baked_max": 3.0,
+    "suv_max": 2.04,
+    "uptake_min": 75.2,
+    "frames_min": [
+      75.2,
+      94.9
+    ],
+    "injected_MBq": 222.264,
+    "infusion": true,
+    "patient": {
+      "sex": "F",
+      "age": "20"
+    }
+  },
+  "source": {
+    "dataset": "Monash rsPET-MR (OpenNeuro ds002898 v1.4.2), CC0",
+    "doi": "https://doi.org/10.18112/openneuro.ds002898.v1.4.2",
+    "citation": "Jamadar SD, Ward PGD, Close TG, et al. 'Monash rsPET-MR' - Simultaneous BOLD-fMRI and constant infusion FDG-PET data of the resting human brain. Scientific Data 7, 363 (2020). https://doi.org/10.1038/s41597-020-00699-5"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "modality": "PET",
+  "subject": "ACRIN-NSCLC-FDG-PET-102",
+  "shape": [
+    167,
+    109,
+    274
+  ],
+  "spacing_mm": [
+    3.0,
+    3.0,
+    3.0
+  ],
+  "source_spacing_mm": [
+    0.9766,
+    0.9766,
+    2.0
+  ],
+  "crop_offset_voxels": [
+    0,
+    89,
+    0
+  ],
+  "crop_offset_mm": [
+    0.0,
+    86.91,
+    0.0
+  ],
+  "volume_center_mm": [
+    249.0,
+    162.0,
+    409.5
+  ],
+  "axes": "RAS+ (i -> patient right, j -> anterior, k -> superior)",
+  "window": {
+    "level": -300.0,
+    "width": 1400.0
+  },
+  "files": {
+    "ct": "ct.bin.gz",
+    "labels": "labels.bin.gz",
+    "pet": "pet.bin.gz"
+  },
+  "labels": [
+    {
+      "id": 1,
+      "name": "liver",
+      "centroid": [
+        100.05,
+        59.83,
+        126.3
+      ],
+      "anchor": [
+        100,
+        60,
+        126
+      ],
+      "volume_ml": 1628.2,
+      "mesh": "meshes/liver.glb",
+      "faces": 40000,
+      "suv_mean": 2.19,
+      "suv_max": 6.2
+    },
+    {
+      "id": 2,
+      "name": "spleen",
+      "centroid": [
+        38.33,
+        39.34,
+        131.0
+      ],
+      "anchor": [
+        38,
+        39,
+        131
+      ],
+      "volume_ml": 274.3,
+      "mesh": "meshes/spleen.glb",
+      "faces": 40000,
+      "suv_mean": 1.9,
+      "suv_max": 3.6
+    },
+    {
+      "id": 3,
+      "name": "stomach",
+      "centroid": [
+        58.57,
+        70.88,
+        131.97
+      ],
+      "anchor": [
+        58,
+        71,
+        132
+      ],
+      "volume_ml": 363.4,
+      "mesh": "meshes/stomach.glb",
+      "faces": 40000,
+      "suv_mean": 2.49,
+      "suv_max": 7.3
+    },
+    {
+      "id": 4,
+      "name": "kidney_right",
+      "centroid": [
+        98.87,
+        42.84,
+        104.71
+      ],
+      "anchor": [
+        99,
+        43,
+        105
+      ],
+      "volume_ml": 179.2,
+      "mesh": "meshes/kidney_right.glb",
+      "faces": 36232,
+      "suv_mean": 2.43,
+      "suv_max": 4.3
+    },
+    {
+      "id": 5,
+      "name": "kidney_left",
+      "centroid": [
+        47.06,
+        42.48,
+        112.47
+      ],
+      "anchor": [
+        47,
+        42,
+        112
+      ],
+      "volume_ml": 183.8,
+      "mesh": "meshes/kidney_left.glb",
+      "faces": 36816,
+      "suv_mean": 2.23,
+      "suv_max": 4.1
+    },
+    {
+      "id": 6,
+      "name": "aorta",
+      "centroid": [
+        66.2,
+        51.36,
+        157.65
+      ],
+      "anchor": [
+        66,
+        59,
+        161
+      ],
+      "volume_ml": 373.8,
+      "mesh": "meshes/aorta.glb",
+      "faces": 40000,
+      "suv_mean": 1.8,
+      "suv_max": 3.4
+    },
+    {
+      "id": 7,
+      "name": "inferior_vena_cava",
+      "centroid": [
+        79.09,
+        54.54,
+        126.14
+      ],
+      "anchor": [
+        79,
+        55,
+        126
+      ],
+      "volume_ml": 54.5,
+      "mesh": "meshes/inferior_vena_cava.glb",
+      "faces": 23536,
+      "suv_mean": 1.75,
+      "suv_max": 2.9
+    },
+    {
+      "id": 8,
+      "name": "spine",
+      "centroid": [
+        71.72,
+        36.18,
+        142.06
+      ],
+      "anchor": [
+        72,
+        36,
+        142
+      ],
+      "volume_ml": 746.8,
+      "mesh": "meshes/spine.glb",
+      "faces": 39998,
+      "suv_mean": 1.53,
+      "suv_max": 3.5
+    },
+    {
+      "id": 10,
+      "name": "bladder",
+      "centroid": [
+        73.54,
+        45.11,
+        38.74
+      ],
+      "anchor": [
+        74,
+        45,
+        39
+      ],
+      "volume_ml": 159.9,
+      "mesh": "meshes/bladder.glb",
+      "faces": 38320,
+      "suv_mean": 8.23,
+      "suv_max": 12.8
+    },
+    {
+      "id": 15,
+      "name": "lungs",
+      "centroid": [
+        73.15,
+        52.21,
+        168.65
+      ],
+      "anchor": [
+        79,
+        41,
+        169
+      ],
+      "volume_ml": 3727.3,
+      "mesh": "meshes/lungs.glb",
+      "faces": 39998,
+      "suv_mean": 0.75,
+      "suv_max": 14.8
+    },
+    {
+      "id": 16,
+      "name": "heart",
+      "centroid": [
+        60.8,
+        65.48,
+        157.38
+      ],
+      "anchor": [
+        61,
+        65,
+        157
+      ],
+      "volume_ml": 1024.5,
+      "mesh": "meshes/heart.glb",
+      "faces": 39998,
+      "suv_mean": 3.97,
+      "suv_max": 14.9
+    },
+    {
+      "id": 17,
+      "name": "brain",
+      "centroid": [
+        67.6,
+        50.04,
+        264.23
+      ],
+      "anchor": [
+        68,
+        50,
+        264
+      ],
+      "volume_ml": 719.8,
+      "mesh": "meshes/brain.glb",
+      "faces": 39998,
+      "suv_mean": 6.4,
+      "suv_max": 17.8
+    }
+  ],
+  "pet": {
+    "tracer": "18F-FDG",
+    "units": "SUVbw",
+    "suv_baked_max": 20.0,
+    "suv_max": 17.8,
+    "hotspot": [
+      46,
+      36,
+      185
+    ],
+    "hotspot_suv": 14.8,
+    "uptake_min": 91.5,
+    "injected_MBq": 355.2,
+    "weight_kg": 76.726,
+    "patient": {
+      "sex": "M",
+      "age": "069Y"
+    }
+  },
+  "source": {
+    "case": "ACRIN-NSCLC-FDG-PET-102",
+    "collection": {
+      "collection": "ACRIN-NSCLC-FDG-PET",
+      "name": "Data from the ACRIN 6668 Trial NSCLC-FDG-PET",
+      "citation": "Kinahan P, Muzi M, Bialecki B, Herman B, Coombs L. Data from the ACRIN 6668 Trial NSCLC-FDG-PET (Version 2). The Cancer Imaging Archive, 2019. https://doi.org/10.7937/tcia.2019.30ilqfcl",
+      "doi": "https://doi.org/10.7937/tcia.2019.30ilqfcl",
+      "license": "CC BY 3.0",
+      "license_uri": "https://creativecommons.org/licenses/by/3.0/",
+      "publication": "Machtay M, et al. Prediction of survival by [18F]FDG PET in patients with locally advanced NSCLC undergoing definitive chemoradiation therapy: results of the ACRIN 6668/RTOG 0235 trial. J Clin Oncol. 2013;31(30):3823-3830. https://doi.org/10.1200/jco.2012.47.5947"
+    },
+    "segmentation": {
+      "tool": "TotalSegmentator total (Apache-2.0)",
+      "citation": "Wasserthal J, Breit HC, Meyer MT, et al. TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images. Radiology: Artificial Intelligence. 2023;5(5):e230024."
+    },
+    "series": {
+      "pet": "1.3.6.1.4.1.14519.5.2.1.7009.2403.262205718136083284150128682510",
+      "study": "1.3.6.1.4.1.14519.5.2.1.7009.2403.494796528700376748896930844673"
+    }
+  }
+}

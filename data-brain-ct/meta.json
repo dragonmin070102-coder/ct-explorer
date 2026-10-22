@@ -1,0 +1,101 @@
+{
+  "region": "brain",
+  "shape": [
+    123,
+    153,
+    119
+  ],
+  "spacing_mm": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "source_spacing_mm": [
+    1.5,
+    1.5,
+    1.5
+  ],
+  "crop_offset_voxels": [
+    90,
+    87,
+    411
+  ],
+  "crop_offset_mm": [
+    135.0,
+    130.5,
+    616.5
+  ],
+  "volume_center_mm": [
+    91.5,
+    114.0,
+    88.5
+  ],
+  "axes": "RAS+ (i -> patient right, j -> anterior, k -> superior)",
+  "files": {
+    "ct": "image.bin.gz",
+    "labels": "labels.bin.gz"
+  },
+  "labels": [
+    {
+      "id": 17,
+      "name": "brain",
+      "centroid": [
+        60.44,
+        72.03,
+        61.06
+      ],
+      "anchor": [
+        60,
+        72,
+        61
+      ],
+      "volume_ml": 1347.9,
+      "mesh": "meshes/brain.glb",
+      "faces": 40000
+    },
+    {
+      "id": 18,
+      "name": "ventricles",
+      "centroid": [
+        64.13,
+        81.62,
+        67.25
+      ],
+      "anchor": [
+        64,
+        82,
+        67
+      ],
+      "volume_ml": 28.4,
+      "mesh": "meshes/ventricles.glb",
+      "faces": 10102
+    },
+    {
+      "id": 21,
+      "name": "skull",
+      "centroid": [
+        61.14,
+        73.5,
+        54.54
+      ],
+      "anchor": [
+        56,
+        85,
+        39
+      ],
+      "volume_ml": 741.3,
+      "mesh": "meshes/skull.glb",
+      "faces": 40000
+    }
+  ],
+  "modality": "CT",
+  "subject": "s0777",
+  "window": {
+    "level": 50.0,
+    "width": 300.0
+  },
+  "source": {
+    "dataset": "TotalSegmentator dataset v2.0.1 (Wasserthal J), CC BY 4.0",
+    "doi": "https://doi.org/10.5281/zenodo.10047263"
+  }
+}
